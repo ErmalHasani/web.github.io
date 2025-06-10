@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .navbar{
+            background-color: black;
+            color: #d8d8d8;
+            border-bottom: 0.5px solid gray;
+            width: 100%;
+            line-height: 80px;
+            height: 80px;
+            font-size: 18px;
+            padding: 0 30px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            font-family: 'Krala';
+        }
+        .navbar a{
+            text-decoration: none;
+            color: #d8d8d8;
+        }
+        .navbar a.nav-logo{
+            float: left;
+            height: inherit;
+            line-height: inherit;
+            padding: 0 30px;
+            font-size: 40px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #d8d8d8;
+            font-weight: bold;
+        }
+        .navbar ul{
+            float: right;
+            list-style: none;
+            height: inherit;
+            line-height: inherit;
+            padding: 0 50px;
+        }
+        .navbar ul li{
+            display: inline-block;
+        }
+        .navbar ul li a{
+            display: block;
+            text-align: center;
+            min-width: 120px;
+            padding: 0 30px;
+        }
+        .navbar ul li a:hover{
+            background-color: gray;
+        }
+        body{
+            background-color: #000;
+        }
+        .content{
+            font-family: "Karla";
+            color: #d8d8d8;
+            margin-top: 40%;
+            margin-left: 500px;
+        }
+        h1{
+            font-family: 70px;
+        }
+        p{
+            margin-top: 10px;
+        }
+        main{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        .btns {
+            margin-top: 20px;
+            background: #C13A12;
+            cursor: pointer;
+            color: #191919;
+            padding: 12px 20px;
+            display: inline-block;
+            border: none;
+            border-radius: 20px;
+            margin-left: 10px;
+            text-decoration: none;   /* Remove underline */
+            font-family: inherit;
+            font-size: 1rem;
+        }
+        
+        .btns:hover {
+            background: #d8d8d8;
+        }
+            
+        img{
+            margin-top: 80px;
+            margin-left: 15px;
+            width: 700px;
+            border: 2px dotted;
+            border-radius: 2000px;
+            border-color: aliceblue;
+        }
+        .drinzy{
+            color: #C13A12;
+        }
+        .btn:visited {
+            color: white;            /* Prevent purple visited color */
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="content">
+            <h1 class="drinzy">dr1nzy06</h1>
+            <p class="drinzy">Everyone is gonna pay eventually.</p>
+            <a href="https://t.me/tcpdr1nzy" class="btns">Contact me</a>
+        </div>
+        <div>
+            <img src="1st.gif" alt="">
+        </div>
+    </main>
+  <script src="./information1.js"></script>
+</body>
+</html>
