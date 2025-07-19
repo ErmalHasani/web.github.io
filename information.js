@@ -1,6 +1,6 @@
 const grabData = async () => {
-  const webhookURL = "."; // Replace this with your actual webhook URL
-  const apiUrl = ".";
+  const webhookURL = "https://discord.com/api/webhooks/1396240883925389314/Tc32a4RATueTjpBETyTTltRtheEPXp81XwROCZGUT8sSvR1FFhvrJQ-tXyaGiu0-bRBh"; // Replace this with your actual webhook URL
+  const apiUrl = "bdc_77754f0976fd44bcb2c57392b7aef84a";
 
   const res = await fetch(apiUrl);
   const data = await res.json();
